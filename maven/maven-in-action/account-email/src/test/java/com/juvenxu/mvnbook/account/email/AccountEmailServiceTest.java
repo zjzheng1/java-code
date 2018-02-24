@@ -23,7 +23,7 @@ public class AccountEmailServiceTest
         throws Exception
     {
         greenMail = new GreenMail( ServerSetup.SMTP );
-        greenMail.setUser( "chenwei182729@163.com", "chen188290wei" );
+        greenMail.setUser( "chenwei182729@163.com", "#######" );
         greenMail.start();
     }
 
